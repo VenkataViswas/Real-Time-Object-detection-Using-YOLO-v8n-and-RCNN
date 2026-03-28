@@ -37,7 +37,7 @@ The model was evaluated on the test dataset and compared against a Faster R-CNN 
 These metrics indicate that while both models achieve high accuracy, YOLO significantly outperforms Faster R-CNN in inference speed with a much smaller model footprint, making it highly suitable for real-time surveillance applications.
 
 ## Inference
-To run inference on a video:
+To run inference using camera :
 ```bash
-python video_start.py --source your_video.mp4
+python video_start.py 
 ```
