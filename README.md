@@ -3,7 +3,6 @@
 This project implements a deep learning object detection model to detect pedestrians using the YOLO (You Only Look Once) architecture.
 
 ## Project Structure
-- `train_yolo.py`: Script to train and evaluate the YOLO model on the pedestrian dataset. It exports training performance metrics.
 - `pedestrian.yaml`: Dataset configuration file specifying training/validation/test paths and class mappings.
 - `convert_to_format.py` & `load_data.py`: Utilities for converting data into YOLO format.
 - `video_start.py`: Inference script to run the trained model on video streams.
@@ -18,7 +17,7 @@ uv pip install -r requirements.txt
 ## Training the Model
 To start the training process:
 ```bash
-python train_yolo.py
+jupyter notebook your_file.ipynb
 ```
 This script will initialize a YOLOv8n model and train it for 50 epochs on the pedestrian dataset. The results, including weights and performance charts, will be saved in the `experiments/` directory.
 
